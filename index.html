@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citra Rasa Kuliner — Jelajah Rasa NTT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <div class="page-loader" aria-hidden="true"><span class="loader-mark">✦</span><strong class="loader-brand">Citra Rasa<br><b>Kuliner</b></strong><span class="loader-caption">Jelajah rasa Nusa Tenggara Timur</span><span class="loader-line"></span></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#beranda"><span class="brand-mark">✦</span><span>Citra Rasa<br><b>Kuliner</b></span></a>
+      <div class="nav-links"><a class="active" href="#beranda">Beranda</a><a href="#jelajah">Jelajah Rasa</a><a href="#resep">Resep</a><a href="#galeri">Galeri</a><a href="#tentang">Tentang Kami</a><a href="#kontak">Kontak</a></div>
+      <div class="nav-actions"><span class="nav-time">WITA <b>·</b> <span id="nav-clock">--:--</span></span><button class="theme-toggle" type="button" aria-label="Aktifkan mode malam" aria-pressed="false"><span class="theme-icon">☾</span></button><button class="menu-btn" aria-label="Buka menu">☰</button></div>
+    </nav>
+  </header>
+
+  <main id="beranda">
+    <section class="hero container" style="background-image:linear-gradient(90deg,rgba(23,61,57,.78),rgba(23,61,57,.25)),url('https://upload.wikimedia.org/wikipedia/commons/5/59/Danau_Kelimutu_2013.jpg');background-size:cover;background-position:center;border-radius:28px;">
+      <div class="hero-copy"><p class="eyebrow">Rasa yang bercerita dari timur Indonesia</p><h1>Jelajah cita rasa<br><em>Nusa Tenggara Timur.</em></h1><p class="hero-text">Temukan kekayaan kuliner NTT, dari resep warisan leluhur hingga sajian khas yang menggugah selera.</p><div class="hero-actions"><a href="#jelajah" class="primary-btn">Mulai Menjelajah <span>→</span></a><a href="#tentang" class="text-btn">Lihat cerita kuliner <span>↗</span></a></div></div>
+       
+    </section>
+
+    <section class="quick container"><div><span class="number">01</span><span>Jelajahi kuliner<br><b>khas NTT</b></span></div><div><span class="number">02</span><span>Kenali daerah<br><b>asalnya</b></span></div><div><span class="number">03</span><span>Bagikan cerita<br><b>rasanya</b></span></div></section>
+
+    <section class="discover container" id="jelajah"><div class="section-heading"><div><p class="eyebrow">Dari dapur tanah timur</p><h2>Rasa pilihan <em>hari ini</em></h2></div><a class="text-btn" href="#katalog">Lihat semua <span>→</span></a></div><div class="food-grid" id="katalog"></div></section>
+
+    <section class="regions" id="wilayah"><div class="container"><div class="section-heading"><div><p class="eyebrow">Lebih dekat dengan asalnya</p><h2>Jelajah <em>wilayah</em></h2></div><a class="text-btn light" href="#wilayah">Semua wilayah <span>→</span></a></div><div class="region-marquee"><div class="region-track"><article class="region west"><span>01</span><h3>Timor</h3><p>Gurih, berani, dan penuh karakter.</p></article><article class="region east"><span>02</span><h3>Flores</h3><p>Hangat, kaya rempah, dan beragam.</p></article><article class="region south"><span>03</span><h3>Sumba</h3><p>Sederhana, autentik, dan berakar.</p></article><article class="region alor"><span>04</span><h3>Alor</h3><p>Laut, rempah, dan tradisi pesisir.</p></article><article class="region west"><span>01</span><h3>Timor</h3><p>Gurih, berani, dan penuh karakter.</p></article><article class="region east"><span>02</span><h3>Flores</h3><p>Hangat, kaya rempah, dan beragam.</p></article><article class="region south"><span>03</span><h3>Sumba</h3><p>Sederhana, autentik, dan berakar.</p></article><article class="region alor"><span>04</span><h3>Alor</h3><p>Laut, rempah, dan tradisi pesisir.</p></article></div></div></div></section>
+
+    <section class="recipe-section container" id="resep"><div class="section-heading"><div><p class="eyebrow">Rahasia dapur tanah timur</p><h2>Resep <em>pilihan</em></h2></div><a class="text-btn" href="#resep">Lihat semua <span>→</span></a></div><div class="recipe-grid"><article class="recipe-card"><div class="recipe-icon">♨</div><div><small>30 menit · Mudah</small><h3>Se’i Sapi Rumahan</h3><p>Daging asap lembut dengan bumbu khas Kupang.</p></div><span class="recipe-arrow">↗</span></article><article class="recipe-card"><div class="recipe-icon">✦</div><div><small>45 menit · Sedang</small><h3>Jagung Bose</h3><p>Hidangan hangat penuh rasa dan cerita.</p></div><span class="recipe-arrow">↗</span></article></div></section>
+
+    <section class="gallery-section" id="galeri"><div class="container"><div class="section-heading"><div><p class="eyebrow">Potret cita rasa</p><h2>Galeri <em>kuliner</em></h2></div><a class="text-btn light" href="#galeri">Lihat semua <span>→</span></a></div><div class="gallery-grid"><div class="gallery-item gallery-large"></div><div class="gallery-item gallery-two"></div><div class="gallery-item gallery-three"></div><div class="gallery-item gallery-four"></div></div></div></section>
+
+    <section class="story container" id="tentang"><div class="story-image"></div><div class="story-copy"><p class="eyebrow">Tentang kami</p><h2>Lebih dari sekadar<br><em>makanan.</em></h2><p>Di setiap piring, tersimpan cerita tentang tanah, tradisi, dan orang-orang yang menjaganya. Citra Rasa Kuliner hadir untuk merawat dan memperkenalkan kekayaan rasa NTT.</p><a class="primary-btn" href="#kontak">Kenali kami <span>→</span></a></div></section>
+
+    <section class="contact-section" id="kontak"><div class="container contact-grid"><div><p class="eyebrow">Mari terhubung</p><h2>Punya cerita<br><em>kuliner NTT?</em></h2><p class="contact-text">Bagikan resep, rekomendasi tempat makan, atau cerita kuliner dari daerahmu.</p></div><form class="contact-form"><input type="text" placeholder="Nama kamu" aria-label="Nama kamu"><input type="email" placeholder="Email kamu" aria-label="Email kamu"><textarea placeholder="Tulis pesanmu..." aria-label="Tulis pesanmu..."></textarea><button class="primary-btn" type="submit">Kirim pesan <span>→</span></button></form></div></section>
+
+  </main>
+  <footer><div class="container footer-inner"><a class="brand" href="#beranda"><span class="brand-mark">✦</span><span>Citra Rasa<br><b>Kuliner</b></span></a><p>Merayakan rasa dari tanah timur.</p><span class="live-clock" aria-live="polite">Waktu NTT — --:--:--</span><span>© 2024 Citra Rasa Kuliner</span></div></footer>
+  <script src="src/app.js"></script>
+</body>
+</html>
